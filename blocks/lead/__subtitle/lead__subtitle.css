@@ -6,4 +6,33 @@
   font-style: normal;
   font-weight: 400;
   text-align: center;
+
 }
+
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 1024px) {
+}
+/* @media screen and (min-width: 768px) {
+  .lead__title {
+    font-size: 96px;
+    line-height: 100px;
+  }
+} */
+
+@media screen and (max-width: 767px) {
+  .lead {
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    margin: 0 auto;
+  }

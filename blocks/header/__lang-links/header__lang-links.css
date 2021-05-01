@@ -4,5 +4,26 @@
   margin-top: 28px;
   font-size: 24px;
   font-family: Inter;
-  
+  margin-right: 48px;
+  margin-top: 46px;
+}
+
+@media screen and (min-width: 1280px) {
+}
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 768px) {
+  .header__lang-links{
+    margin-right: 24px;
+    margin-top: 46px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header__lang-links{
+    /* width: 142px;
+    height: 42px; */
+    margin-right: 16px;
+    margin-top: 30px;
+  }
 }

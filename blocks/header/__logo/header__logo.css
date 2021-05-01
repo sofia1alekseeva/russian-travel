@@ -1,9 +1,25 @@
 .header__logo {
-  /* position: absolute;
-  left: 48px;
-  top: 28px; */
   width: 176px;
   height: 52px;
   margin-left: 48px;
   margin-top: 28px;
+}
+
+@media screen and (min-width: 1280px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+  .header__logo{
+    margin-left: 24px;
+    margin-top: 28px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header__logo{
+    width: 142px;
+    height: 42px;
+    margin-left: 16px;
+    margin-top: 16px;
+  }
 }
