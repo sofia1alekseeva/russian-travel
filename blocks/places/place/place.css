@@ -1,10 +1,15 @@
 .place {
   display: grid;
-  grid-template-rows: repeat(3, max-content);
-  grid-template-columns: repeat(2, max-content);
-  justify-content: center;
+  /* grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr); */
+
+
   gap: 26px 40px;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
+  grid-template-areas:
+  "title website"
+  "image paragraph"
+  "image paragraph";
 }
 
 
@@ -16,18 +21,31 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-
+    padding-bottom: 73px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place {
-
+    grid-template-areas:
+    "title"
+    "website"
+    "image"
+    "paragraph"
+    "paragraph";
+    padding-bottom: 50px;
+    
   }
 }
 
 @media screen and (max-width: 320px) {
   .place {
-
+    grid-template-areas:
+    "title"
+    "website"
+    "image"
+    "paragraph"
+    "paragraph";
+    padding-bottom: 50px;
   }
 }

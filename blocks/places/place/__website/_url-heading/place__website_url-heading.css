@@ -1,10 +1,45 @@
 .place__website_url-heading {
   font-family: Inter;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0.2em;
-text-align: left;
-color: #AAAAAA;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  text-align: left;
+  color: #AAAAAA;
+  max-width: 100%;
 }
+
+@media screen and (max-width: 1280px) {
+  .place__website_url-heading {}
+}
+
+@media screen and (max-width: 1024px) {
+  .place__website_url-heading {}
+}
+
+@media screen and (max-width: 768px) {
+  .place__website_url-heading {
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__website_url-heading {
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-align: left;
+  }
+}
+
+;

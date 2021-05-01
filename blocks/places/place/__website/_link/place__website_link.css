@@ -7,4 +7,25 @@
   letter-spacing: 0em;
   text-align: left;
   color: #fff;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+  .place__website_link {}
+}
+
+@media screen and (max-width: 1024px) {
+  .place__website_link {}
+}
+
+@media screen and (max-width: 768px) {
+  .place__website_link {
+
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__website_link {
+
+  }
 }
