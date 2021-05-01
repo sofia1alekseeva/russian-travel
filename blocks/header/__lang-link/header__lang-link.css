@@ -1,0 +1,13 @@
+.header__lang-link {
+  color: #fff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  margin-right: 18px;
+}
+.header__lang-link:nth-child(2){
+  margin-right: 0;
+  text-decoration: none;
+}

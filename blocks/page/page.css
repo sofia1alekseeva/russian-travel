@@ -1,0 +1,26 @@
+.page {
+  background: #2A2C2F;
+  max-width: 100%;
+  color: #fff;
+  font-family: Inter;
+
+}
+
+@media screen and (min-width: 1440px) {
+  /* стили для больших настольных компьютеров и ноутбуков */
+}
+@media screen and (max-width: 1024px) {
+  /* стили для планшета в альбомной ориентации */
+}
+@media screen and (max-width: 768px) {
+  /* стили для планшета */
+}
+@media screen and (max-width: 425px) {
+  /* стили для широкого смартфона */
+}
+@media screen and (max-width: 375px) {
+  /* стили для среднего смартфона */
+}
+@media screen and (max-width: 320px) {
+  /* стили для малого смартфона */
+}
