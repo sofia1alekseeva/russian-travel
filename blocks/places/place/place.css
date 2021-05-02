@@ -3,15 +3,29 @@
   gap: 26px 40px;
   grid-template-areas: "title website" "image paragraph" "image paragraph";
   padding-top: 80px;
+  margin-left: 148px;
+  margin-right: 148px;
 }
 
 .place:first-child {
   padding-top: 0;
 }
 
+
 @media screen and (max-width: 1024px) {
   .place {
     padding-top: 80px;
+    gap: 26px 32px;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .place {
+    padding-top: 72px;
+    margin-left: 24px;
+    margin-right: 24px;
+    gap: 25px 28px;
   }
 }
 
@@ -19,6 +33,9 @@
   .place {
     grid-template-areas: "title" "website" "image" "paragraph" "paragraph";
     padding-top: 72px;
+    margin-left: 24px;
+    margin-right: 24px;
+    gap: 25px 28px;
   }
 }
 
@@ -26,5 +43,8 @@
   .place {
     grid-template-areas: "title" "website" "image" "paragraph" "paragraph";
     padding-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 0 0;
   }
 }

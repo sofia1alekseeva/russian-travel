@@ -3,16 +3,8 @@
   grid-area: website;
 }
 
-@media screen and (max-width: 768px) {
-  .place__website {
-    margin: 0 16px;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .place__website {
-    margin: 0 16px;
+    margin: 32px 16px;
   }
 }
-
-;
