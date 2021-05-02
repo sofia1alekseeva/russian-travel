@@ -11,7 +11,6 @@
   padding-top: 0;
 }
 
-
 @media screen and (max-width: 1024px) {
   .place {
     padding-top: 80px;
@@ -20,6 +19,7 @@
     margin-right: 48px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .place {
     padding-top: 72px;
@@ -29,13 +29,9 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 650px) {
   .place {
     grid-template-areas: "title" "website" "image" "paragraph" "paragraph";
-    padding-top: 72px;
-    margin-left: 24px;
-    margin-right: 24px;
-    gap: 25px 28px;
   }
 }
 
