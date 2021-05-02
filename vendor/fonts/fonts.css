@@ -1,7 +1,13 @@
 @font-face {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
   font-family: 'Inter';
-  font-style:  normal;
+  font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("./Inter-Regular.woff2") format("woff2"),
+  src: url("./Inter-Regular.woff2") format("woff2");
 }

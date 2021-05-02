@@ -2,6 +2,7 @@
   display: grid;
   gap: 26px 40px;
   grid-template-areas: "title website" "image paragraph" "image paragraph";
+  padding-top: 80px;
 }
 
 .place:first-child {

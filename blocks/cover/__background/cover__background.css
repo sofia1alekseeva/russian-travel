@@ -10,11 +10,11 @@
   z-index: 0;
   overflow: hidden;
   color: #fff;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   text-decoration: none;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 92px 48px 0;
-  height: auto;
 }
 
 .cover__background:before {
@@ -35,21 +35,11 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 1280px) {
-  .cover__background {
-    margin: 92px 48px 0;
-    height: auto;
-    min-height: 740px;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   .cover__background {
     margin: 0;
     max-width: 1024px;
     max-height: 640px;
-    height: auto;
-    width: 100%;
     min-height: 640px;
   }
 }
@@ -57,9 +47,6 @@
 @media screen and (max-width: 768px) {
   .cover__background {
     max-width: 768px;
-    /* max-height: 480px; */
-    height: auto;
-    width: 100%;
     min-height: 480px;
   }
 }
@@ -68,7 +55,5 @@
   .cover__background {
     max-width: 320px;
     min-height: 200px;
-    width: 100%;
-    height: auto;
   }
 }

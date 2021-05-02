@@ -13,13 +13,3 @@
     padding: 64px 16px 24px;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .footer {
-    display: grid;
-    gap: 32px;
-    grid-template-columns: max-content;
-    margin-top: 0;
-    padding: 64px 16px 24px;
-  }
-}
