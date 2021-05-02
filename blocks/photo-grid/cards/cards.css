@@ -1,4 +1,4 @@
-.cards{
+.cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, 284px);
   grid-template-rows: repeat(auto-fill, 213px);
@@ -9,25 +9,25 @@
 }
 
 @media screen and (max-width: 1280px) {
-  .cards{
-  grid-template-columns: repeat(auto-fill, 300px);
-  grid-template-rows: repeat(auto-fill, 225px);
-  gap: 14px;
-  margin: 0 48px;
+  .cards {
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-rows: repeat(auto-fill, 225px);
+    gap: 14px;
+    margin: 0 48px;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .cards{
-  grid-template-columns: repeat(auto-fill, 300px);
-  grid-template-rows: repeat(auto-fill, 225px);
-  gap: 16px;
-  margin: 0 48px;
+  .cards {
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-rows: repeat(auto-fill, 225px);
+    gap: 16px;
+    margin: 0 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .cards{
+  .cards {
     grid-template-columns: repeat(auto-fill, 352px);
     grid-template-rows: repeat(auto-fill, 264px);
     gap: 16px;
@@ -36,10 +36,10 @@
 }
 
 @media screen and (max-width: 320px) {
-  .cards{
-  grid-template-columns: repeat(auto-fill, 288px);
-  grid-template-rows: repeat(auto-fill, 216px);
-  gap: 12px;
-  margin: 0 16px;
+  .cards {
+    grid-template-columns: repeat(auto-fill, 288px);
+    grid-template-rows: repeat(auto-fill, 216px);
+    gap: 12px;
+    margin: 0 16px;
   }
 }

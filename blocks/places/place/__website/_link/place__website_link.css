@@ -9,32 +9,10 @@
   color: #fff;
   max-width: 100%;
   opacity: 1;
-transition: opacity .3s ease .1s;
+  transition: opacity .3s ease .1s;
 }
-
-
 
 .place__website_link:hover {
-opacity: .8;
-transition: opacity .3s ease .1s;
-}
-
-@media screen and (max-width: 1280px) {
-  .place__website_link {}
-}
-
-@media screen and (max-width: 1024px) {
-  .place__website_link {}
-}
-
-@media screen and (max-width: 768px) {
-  .place__website_link {
-
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__website_link {
-
-  }
+  opacity: .8;
+  transition: opacity .3s ease .1s;
 }

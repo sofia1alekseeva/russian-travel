@@ -27,10 +27,6 @@
   margin-right: 0;
 }
 
-@media screen and (max-width: 1280px) {
-  .places {}
-}
-
 @media screen and (max-width: 1024px) {
   .footer__link:first-of-type {
     margin-left: 24px;

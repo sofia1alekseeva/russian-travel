@@ -10,10 +10,6 @@
   margin: 56px auto 0;
 }
 
-@media screen and (max-width: 1280px) {
-}
-@media screen and (max-width: 1024px) {
-}
 @media screen and (min-width: 768px) {
   .lead__title {
     font-size: 96px;
@@ -25,7 +21,7 @@
 @media screen and (max-width: 767px) {
   .lead__title {
     box-sizing: border-box;
-    position:relative;
+    position: relative;
     font-size: 40px;
     line-height: 40px;
     text-align: center;
