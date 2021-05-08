@@ -3,9 +3,3 @@
   color: #fff;
   background: #2A2C2F;
 }
-
-@media screen and (max-width: 1280px) {
-  .page {
-    max-width: 1280px;
-  }
-}
