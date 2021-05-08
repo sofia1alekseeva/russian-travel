@@ -14,7 +14,8 @@
   text-decoration: none;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 92px 48px 0;
+  background-position: center;
+  padding: 0;
 }
 
 .cover__background:before {
@@ -25,7 +26,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: #2A2C2F;
   opacity: 0.3;
   z-index: -1;
   transition: opacity .2s ease-in-out;
@@ -35,11 +36,17 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .cover__background {
     margin: 0;
+    max-width: 1184px;
+    min-height: 740px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__background {
     max-width: 1024px;
-    max-height: 640px;
     min-height: 640px;
   }
 }
@@ -48,6 +55,7 @@
   .cover__background {
     max-width: 768px;
     min-height: 480px;
+    margin-top: 90px;
   }
 }
 

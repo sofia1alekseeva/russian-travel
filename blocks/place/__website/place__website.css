@@ -3,6 +3,12 @@
   grid-area: website;
 }
 
+@media screen and (max-width: 650px) {
+  .place__website {
+    margin: 0 16px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__website {
     margin: 32px 16px;

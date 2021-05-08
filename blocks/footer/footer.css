@@ -4,12 +4,12 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 750px) {
   .footer {
     display: grid;
-    gap: 32px;
+    gap: 48px;
     grid-template-columns: max-content;
     margin-top: 0;
-    padding: 64px 16px 24px;
+    padding: 64px 0 24px 16px;
   }
 }

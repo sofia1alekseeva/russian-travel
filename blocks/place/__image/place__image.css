@@ -1,13 +1,47 @@
 .place__image {
   display: grid;
-  max-width: 100%;
+  width: 100%;
   grid-area: image;
+  justify-content: start;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1280px) {
+  .place__image {
+    max-width: 460px;
+    justify-self: center;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .place__image {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__image {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .place__image {
+    max-width: 440px;
+    justify-self: start;
+    margin: 0 16px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .place__image {
+    max-width: calc(100% - 32px);
+  }
+}
+
+@media screen and (max-width: 320px) {
   .place__image {
     max-width: 100%;
-    justify-self: center;
     margin: 0;
   }
 }

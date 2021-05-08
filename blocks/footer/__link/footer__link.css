@@ -33,7 +33,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 750px) {
   .footer__link:first-of-type {
     margin: 0;
   }
