@@ -29,7 +29,7 @@
   .place__image {
     max-width: 440px;
     justify-self: start;
-    margin: 0 16px;
+    margin: 0 auto;
   }
 }
 

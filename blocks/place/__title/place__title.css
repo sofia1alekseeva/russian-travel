@@ -33,7 +33,7 @@
 @media screen and (max-width: 650px) {
   .place__title {
     max-width: 500px;
-    margin: 0 16px;
+    margin: 0 auto;
   }
 }
 
