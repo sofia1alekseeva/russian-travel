@@ -1,5 +1,10 @@
-.page {
+body{
   font-family: Inter, Arial, Helvetica, sans-serif;
   color: #fff;
   background: #2A2C2F;
+}
+
+.page {
+  max-width: 1280px;
+  margin: 0 auto;
 }
