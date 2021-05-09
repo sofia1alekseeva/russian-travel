@@ -53,7 +53,8 @@
 @media screen and (max-width: 650px) {
   .place {
     grid-template-areas: "title" "website" "image" "paragraph";
-    margin: 0;
+    margin: 0 auto;
+    max-width: 420px;
     grid-template-columns: 1fr;
   }
 }
@@ -65,5 +66,6 @@
     margin-left: 0;
     margin-right: 0;
     gap: 0 0;
+    max-width: 100%;
   }
 }
